@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "veilborne:block/robe_scrap"
+    },
+    "facing=east": {
+      "model": "veilborne:block/robe_scrap",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "veilborne:block/robe_scrap",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "veilborne:block/robe_scrap",
+      "y": 270
+    }
+  }
+}

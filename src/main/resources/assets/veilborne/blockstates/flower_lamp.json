@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "veilborne:block/flower_lamp"
+    },
+    "hanging=true": {
+      "model": "veilborne:block/flower_lamp_hanging"
+    }
+  }
+}

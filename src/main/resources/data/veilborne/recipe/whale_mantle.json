@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "PWP",
+    " P "
+  ],
+  "key": {
+    "S": {
+      "item": "veilborne:whale_scale"
+    },
+    "P": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "id": "veilborne:whale_mantle",
+    "count": 1
+  }
+}

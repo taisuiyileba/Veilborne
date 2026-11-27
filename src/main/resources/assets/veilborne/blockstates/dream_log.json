@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "veilborne:block/dream_log"
+    },
+    "axis=z": {
+      "model": "veilborne:block/dream_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "veilborne:block/dream_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8","package":"com.suiyi.veilborne.mixin","compatibilityLevel":"JAVA_21","client":["CloudVeilMixin","TideLightMixin","SkyVeilMixin","MirrorBlockMixin","HushSoundMixin","HushCloudMixin"],"injectors":{"defaultRequire":1}}

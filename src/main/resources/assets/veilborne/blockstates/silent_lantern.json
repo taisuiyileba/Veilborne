@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "veilborne:block/silent_lantern"
+    },
+    "hanging=true": {
+      "model": "veilborne:block/silent_lantern_hanging"
+    }
+  }
+}

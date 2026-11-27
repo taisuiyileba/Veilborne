@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "SDS",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "veilborne:moon_shard"
+    },
+    "D": {
+      "item": "veilborne:moon_dew"
+    }
+  },
+  "result": {
+    "id": "veilborne:silver_lantern",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "values": {
+    "veilborne:dream_leaves": {
+      "chance": 0.85
+    },
+    "veilborne:golden_leaf": {
+      "chance": 0.65
+    }
+  }
+}

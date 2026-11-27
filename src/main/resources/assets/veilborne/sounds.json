@@ -1,0 +1,972 @@
+{
+  "sea": {
+    "subtitle": "subtitles.veilborne.sea",
+    "sounds": [
+      {
+        "name": "veilborne:sea",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "whale": {
+    "subtitle": "subtitles.veilborne.whale",
+    "sounds": [
+      {
+        "name": "veilborne:whale",
+        "stream": false,
+        "attenuation_distance": 160
+      }
+    ]
+  },
+  "chime": {
+    "subtitle": "subtitles.veilborne.chime",
+    "sounds": [
+      {
+        "name": "veilborne:chime",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "vortex": {
+    "subtitle": "subtitles.veilborne.vortex",
+    "sounds": [
+      {
+        "name": "veilborne:vortex",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "ebb": {
+    "subtitle": "subtitles.veilborne.ebb",
+    "sounds": [
+      {
+        "name": "veilborne:ebb",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "moon_drone": {
+    "subtitle": "subtitles.veilborne.moon_drone",
+    "sounds": [
+      {
+        "name": "veilborne:moon_drone",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "moon_omen": {
+    "subtitle": "subtitles.veilborne.moon_omen",
+    "sounds": [
+      {
+        "name": "veilborne:moon_omen",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "moon_crack": {
+    "subtitle": "subtitles.veilborne.moon_crack",
+    "sounds": [
+      {
+        "name": "veilborne:moon_crack",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "moon_molt": {
+    "subtitle": "subtitles.veilborne.moon_molt",
+    "sounds": [
+      {
+        "name": "veilborne:moon_molt",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "moon_bell": {
+    "subtitle": "subtitles.veilborne.moon_bell",
+    "sounds": [
+      {
+        "name": "veilborne:moon_bell",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "moon_scatter": {
+    "subtitle": "subtitles.veilborne.moon_scatter",
+    "sounds": [
+      {
+        "name": "veilborne:moon_scatter",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "moon_close": {
+    "subtitle": "subtitles.veilborne.moon_close",
+    "sounds": [
+      {
+        "name": "veilborne:moon_close",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "lullaby_0": {
+    "subtitle": "subtitles.veilborne.lullaby_0",
+    "sounds": [
+      {
+        "name": "veilborne:lullaby_0",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "lullaby_1": {
+    "subtitle": "subtitles.veilborne.lullaby_1",
+    "sounds": [
+      {
+        "name": "veilborne:lullaby_1",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "lullaby_2": {
+    "subtitle": "subtitles.veilborne.lullaby_2",
+    "sounds": [
+      {
+        "name": "veilborne:lullaby_2",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "lullaby_3": {
+    "subtitle": "subtitles.veilborne.lullaby_3",
+    "sounds": [
+      {
+        "name": "veilborne:lullaby_3",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "lullaby_4": {
+    "subtitle": "subtitles.veilborne.lullaby_4",
+    "sounds": [
+      {
+        "name": "veilborne:lullaby_4",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "lullaby_5": {
+    "subtitle": "subtitles.veilborne.lullaby_5",
+    "sounds": [
+      {
+        "name": "veilborne:lullaby_5",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_drone": {
+    "subtitle": "subtitles.veilborne.mirror_drone",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_drone",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_omen": {
+    "subtitle": "subtitles.veilborne.mirror_omen",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_omen",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_silver": {
+    "subtitle": "subtitles.veilborne.mirror_silver",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_silver",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_crack": {
+    "subtitle": "subtitles.veilborne.mirror_crack",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_crack",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_step": {
+    "subtitle": "subtitles.veilborne.mirror_step",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_step",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_door": {
+    "subtitle": "subtitles.veilborne.mirror_door",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_door",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "mirror_whine": {
+    "subtitle": "subtitles.veilborne.mirror_whine",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_whine",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "mirror_burst": {
+    "subtitle": "subtitles.veilborne.mirror_burst",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_burst",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_shatter": {
+    "subtitle": "subtitles.veilborne.mirror_shatter",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_shatter",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_chime": {
+    "subtitle": "subtitles.veilborne.mirror_chime",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_chime",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "mirror_rewind": {
+    "subtitle": "subtitles.veilborne.mirror_rewind",
+    "sounds": [
+      {
+        "name": "veilborne:mirror_rewind",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "hymn_0": {
+    "subtitle": "subtitles.veilborne.hymn_0",
+    "sounds": [
+      {
+        "name": "veilborne:hymn_0",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hymn_1": {
+    "subtitle": "subtitles.veilborne.hymn_1",
+    "sounds": [
+      {
+        "name": "veilborne:hymn_1",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hymn_2": {
+    "subtitle": "subtitles.veilborne.hymn_2",
+    "sounds": [
+      {
+        "name": "veilborne:hymn_2",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hymn_3": {
+    "subtitle": "subtitles.veilborne.hymn_3",
+    "sounds": [
+      {
+        "name": "veilborne:hymn_3",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hymn_4": {
+    "subtitle": "subtitles.veilborne.hymn_4",
+    "sounds": [
+      {
+        "name": "veilborne:hymn_4",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_drone": {
+    "subtitle": "subtitles.veilborne.thread_drone",
+    "sounds": [
+      {
+        "name": "veilborne:thread_drone",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_omen": {
+    "subtitle": "subtitles.veilborne.thread_omen",
+    "sounds": [
+      {
+        "name": "veilborne:thread_omen",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_tear": {
+    "subtitle": "subtitles.veilborne.thread_tear",
+    "sounds": [
+      {
+        "name": "veilborne:thread_tear",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_loom": {
+    "subtitle": "subtitles.veilborne.thread_loom",
+    "sounds": [
+      {
+        "name": "veilborne:thread_loom",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_pierce": {
+    "subtitle": "subtitles.veilborne.thread_pierce",
+    "sounds": [
+      {
+        "name": "veilborne:thread_pierce",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_warn": {
+    "subtitle": "subtitles.veilborne.thread_warn",
+    "sounds": [
+      {
+        "name": "veilborne:thread_warn",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "thread_strike": {
+    "subtitle": "subtitles.veilborne.thread_strike",
+    "sounds": [
+      {
+        "name": "veilborne:thread_strike",
+        "stream": false,
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "thread_tug": {
+    "subtitle": "subtitles.veilborne.thread_tug",
+    "sounds": [
+      {
+        "name": "veilborne:thread_tug",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_snap": {
+    "subtitle": "subtitles.veilborne.thread_snap",
+    "sounds": [
+      {
+        "name": "veilborne:thread_snap",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_knot": {
+    "subtitle": "subtitles.veilborne.thread_knot",
+    "sounds": [
+      {
+        "name": "veilborne:thread_knot",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_walker": {
+    "subtitle": "subtitles.veilborne.thread_walker",
+    "sounds": [
+      {
+        "name": "veilborne:thread_walker",
+        "stream": false,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "thread_spirit": {
+    "subtitle": "subtitles.veilborne.thread_spirit",
+    "sounds": [
+      {
+        "name": "veilborne:thread_spirit",
+        "stream": false,
+        "attenuation_distance": 20
+      }
+    ]
+  },
+  "thread_anchor": {
+    "subtitle": "subtitles.veilborne.thread_anchor",
+    "sounds": [
+      {
+        "name": "veilborne:thread_anchor",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "thread_chime": {
+    "subtitle": "subtitles.veilborne.thread_chime",
+    "sounds": [
+      {
+        "name": "veilborne:thread_chime",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "thread_fade": {
+    "subtitle": "subtitles.veilborne.thread_fade",
+    "sounds": [
+      {
+        "name": "veilborne:thread_fade",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "thread_pocket": {
+    "subtitle": "subtitles.veilborne.thread_pocket",
+    "sounds": [
+      {
+        "name": "veilborne:thread_pocket",
+        "stream": false,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "weave_0": {
+    "subtitle": "subtitles.veilborne.weave_0",
+    "sounds": [
+      {
+        "name": "veilborne:weave_0",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "weave_1": {
+    "subtitle": "subtitles.veilborne.weave_1",
+    "sounds": [
+      {
+        "name": "veilborne:weave_1",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "weave_2": {
+    "subtitle": "subtitles.veilborne.weave_2",
+    "sounds": [
+      {
+        "name": "veilborne:weave_2",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "weave_3": {
+    "subtitle": "subtitles.veilborne.weave_3",
+    "sounds": [
+      {
+        "name": "veilborne:weave_3",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "weave_4": {
+    "subtitle": "subtitles.veilborne.weave_4",
+    "sounds": [
+      {
+        "name": "veilborne:weave_4",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_drone": {
+    "subtitle": "subtitles.veilborne.hush_drone",
+    "sounds": [
+      {
+        "name": "veilborne:hush_drone",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_omen": {
+    "subtitle": "subtitles.veilborne.hush_omen",
+    "sounds": [
+      {
+        "name": "veilborne:hush_omen",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_fade": {
+    "subtitle": "subtitles.veilborne.hush_fade",
+    "sounds": [
+      {
+        "name": "veilborne:hush_fade",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_knock": {
+    "subtitle": "subtitles.veilborne.hush_knock",
+    "sounds": [
+      {
+        "name": "veilborne:hush_knock",
+        "stream": false,
+        "attenuation_distance": 28
+      }
+    ]
+  },
+  "hush_bell": {
+    "subtitle": "subtitles.veilborne.hush_bell",
+    "sounds": [
+      {
+        "name": "veilborne:hush_bell",
+        "stream": false,
+        "attenuation_distance": 72
+      }
+    ]
+  },
+  "hush_heart": {
+    "subtitle": "subtitles.veilborne.hush_heart",
+    "sounds": [
+      {
+        "name": "veilborne:hush_heart",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_ting": {
+    "subtitle": "subtitles.veilborne.hush_ting",
+    "sounds": [
+      {
+        "name": "veilborne:hush_ting",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_thunder": {
+    "subtitle": "subtitles.veilborne.hush_thunder",
+    "sounds": [
+      {
+        "name": "veilborne:hush_thunder",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_bird": {
+    "subtitle": "subtitles.veilborne.hush_bird",
+    "sounds": [
+      {
+        "name": "veilborne:hush_bird",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_chirp": {
+    "subtitle": "subtitles.veilborne.hush_chirp",
+    "sounds": [
+      {
+        "name": "veilborne:hush_chirp",
+        "stream": false,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "hush_return": {
+    "subtitle": "subtitles.veilborne.hush_return",
+    "sounds": [
+      {
+        "name": "veilborne:hush_return",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_erase": {
+    "subtitle": "subtitles.veilborne.hush_erase",
+    "sounds": [
+      {
+        "name": "veilborne:hush_erase",
+        "stream": false,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "hush_whisper": {
+    "subtitle": "subtitles.veilborne.hush_whisper",
+    "sounds": [
+      {
+        "name": "veilborne:hush_whisper",
+        "stream": false,
+        "attenuation_distance": 22
+      }
+    ]
+  },
+  "hush_hollow": {
+    "subtitle": "subtitles.veilborne.hush_hollow",
+    "sounds": [
+      {
+        "name": "veilborne:hush_hollow",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "hush_answer": {
+    "subtitle": "subtitles.veilborne.hush_answer",
+    "sounds": [
+      {
+        "name": "veilborne:hush_answer",
+        "stream": false,
+        "attenuation_distance": 28
+      }
+    ]
+  },
+  "harmony_0": {
+    "subtitle": "subtitles.veilborne.harmony_0",
+    "sounds": [
+      {
+        "name": "veilborne:harmony_0",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "harmony_1": {
+    "subtitle": "subtitles.veilborne.harmony_1",
+    "sounds": [
+      {
+        "name": "veilborne:harmony_1",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "harmony_2": {
+    "subtitle": "subtitles.veilborne.harmony_2",
+    "sounds": [
+      {
+        "name": "veilborne:harmony_2",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "harmony_3": {
+    "subtitle": "subtitles.veilborne.harmony_3",
+    "sounds": [
+      {
+        "name": "veilborne:harmony_3",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_drone": {
+    "subtitle": "subtitles.veilborne.dream_drone",
+    "sounds": [
+      {
+        "name": "veilborne:dream_drone",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_hum": {
+    "subtitle": "subtitles.veilborne.dream_hum",
+    "sounds": [
+      {
+        "name": "veilborne:dream_hum",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_omen": {
+    "subtitle": "subtitles.veilborne.dream_omen",
+    "sounds": [
+      {
+        "name": "veilborne:dream_omen",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_root": {
+    "subtitle": "subtitles.veilborne.dream_root",
+    "sounds": [
+      {
+        "name": "veilborne:dream_root",
+        "stream": false,
+        "attenuation_distance": 200
+      }
+    ]
+  },
+  "dream_rustle": {
+    "subtitle": "subtitles.veilborne.dream_rustle",
+    "sounds": [
+      {
+        "name": "veilborne:dream_rustle",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "dream_bloom": {
+    "subtitle": "subtitles.veilborne.dream_bloom",
+    "sounds": [
+      {
+        "name": "veilborne:dream_bloom",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "dream_step": {
+    "subtitle": "subtitles.veilborne.dream_step",
+    "sounds": [
+      {
+        "name": "veilborne:dream_step",
+        "stream": false,
+        "attenuation_distance": 220
+      }
+    ]
+  },
+  "dream_call": {
+    "subtitle": "subtitles.veilborne.dream_call",
+    "sounds": [
+      {
+        "name": "veilborne:dream_call",
+        "stream": false,
+        "attenuation_distance": 240
+      }
+    ]
+  },
+  "dream_glance": {
+    "subtitle": "subtitles.veilborne.dream_glance",
+    "sounds": [
+      {
+        "name": "veilborne:dream_glance",
+        "stream": false,
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "dream_sprout": {
+    "subtitle": "subtitles.veilborne.dream_sprout",
+    "sounds": [
+      {
+        "name": "veilborne:dream_sprout",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "dream_chime": {
+    "subtitle": "subtitles.veilborne.dream_chime",
+    "sounds": [
+      {
+        "name": "veilborne:dream_chime",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "dream_vine": {
+    "subtitle": "subtitles.veilborne.dream_vine",
+    "sounds": [
+      {
+        "name": "veilborne:dream_vine",
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "dream_fish": {
+    "subtitle": "subtitles.veilborne.dream_fish",
+    "sounds": [
+      {
+        "name": "veilborne:dream_fish",
+        "stream": false,
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "dream_fall": {
+    "subtitle": "subtitles.veilborne.dream_fall",
+    "sounds": [
+      {
+        "name": "veilborne:dream_fall",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_return": {
+    "subtitle": "subtitles.veilborne.dream_return",
+    "sounds": [
+      {
+        "name": "veilborne:dream_return",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_bird": {
+    "subtitle": "subtitles.veilborne.dream_bird",
+    "sounds": [
+      {
+        "name": "veilborne:dream_bird",
+        "stream": false,
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "dream_drip": {
+    "subtitle": "subtitles.veilborne.dream_drip",
+    "sounds": [
+      {
+        "name": "veilborne:dream_drip",
+        "stream": false,
+        "attenuation_distance": 28
+      }
+    ]
+  },
+  "dream_reed_0": {
+    "subtitle": "subtitles.veilborne.dream_reed_0",
+    "sounds": [
+      {
+        "name": "veilborne:dream_reed_0",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_reed_1": {
+    "subtitle": "subtitles.veilborne.dream_reed_1",
+    "sounds": [
+      {
+        "name": "veilborne:dream_reed_1",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_reed_2": {
+    "subtitle": "subtitles.veilborne.dream_reed_2",
+    "sounds": [
+      {
+        "name": "veilborne:dream_reed_2",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_pluck_0": {
+    "subtitle": "subtitles.veilborne.dream_pluck_0",
+    "sounds": [
+      {
+        "name": "veilborne:dream_pluck_0",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_pluck_1": {
+    "subtitle": "subtitles.veilborne.dream_pluck_1",
+    "sounds": [
+      {
+        "name": "veilborne:dream_pluck_1",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "dream_pluck_2": {
+    "subtitle": "subtitles.veilborne.dream_pluck_2",
+    "sounds": [
+      {
+        "name": "veilborne:dream_pluck_2",
+        "stream": false,
+        "attenuation_distance": 32
+      }
+    ]
+  }
+}

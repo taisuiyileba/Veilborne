@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "TLT",
+    " G "
+  ],
+  "key": {
+    "S": {
+      "item": "veilborne:seam_silk"
+    },
+    "T": {
+      "item": "veilborne:scarlet_thread"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "veilborne:loom_lantern",
+    "count": 1
+  }
+}

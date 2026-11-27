@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '1.0.23'
+}
+group = 'com.suiyi'
+version = '1.0.0'
+base { archivesName = 'veilborne-1.21.1-neoforge' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
+repositories { mavenCentral() }
+sourceSets {
+    gameTest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+configurations { gameTestImplementation.extendsFrom implementation }
+neoForge {
+    version = '21.1.248'
+    runs {
+        client {
+            client()
+            gameDirectory = file(project.hasProperty('tideCompat') ? 'runs/compat' : 'runs/default')
+            if (project.hasProperty('tidePreview')) {
+                systemProperty 'veilborne.preview', 'true'
+                systemProperty 'veilborne.previewMode', project.findProperty('tidePreview') ?: 'sky'
+                if (project.hasProperty('tidePreviewWorld')) { systemProperty 'veilborne.previewWorld', project.property('tidePreviewWorld') }
+                if (project.hasProperty('tidePreviewScenes')) { systemProperty 'veilborne.previewScenes', project.property('tidePreviewScenes') }
+                programArguments.addAll '--width', '1280', '--height', '720'
+            }
+        }
+        server { server(); gameDirectory = file('runs/default'); programArgument '--nogui' }
+        networkHost {
+            client(); gameDirectory = file('runs/network-host')
+            systemProperty 'veilborne.networkPreview', 'host'
+            programArguments.addAll '--username', 'TideHost', '--width', '960', '--height', '540'
+        }
+        networkGuest {
+            client(); gameDirectory = file('runs/network-guest')
+            systemProperty 'veilborne.networkPreview', 'guest'
+            programArguments.addAll '--username', 'TideGuest', '--width', '960', '--height', '540'
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = file('runs/gametest')
+            sourceSet = sourceSets.gameTest
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'veilborne'
+        }
+    }
+    mods {
+        veilborne { sourceSet sourceSets.main }
+        veilborne_tests { sourceSet sourceSets.gameTest }
+    }
+}
+tasks.named('jar', Jar).configure { from('LICENSE') }
+tasks.named('sourcesJar', Jar).configure { from('LICENSE') }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

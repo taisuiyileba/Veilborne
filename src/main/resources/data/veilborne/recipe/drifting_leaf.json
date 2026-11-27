@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    " N ",
+    " L "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "L": {
+      "item": "veilborne:dream_leaves"
+    }
+  },
+  "result": {
+    "id": "veilborne:drifting_leaf",
+    "count": 1
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "vertex": "veilborne:thread_sky",
+  "fragment": "veilborne:thread_sky",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "ColorModulator",
+      "type": "float",
+      "count": 4,
+      "values": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "InvProjView",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SkyLook",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "Omen",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Flash",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Hand",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SunDir",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "DomeInfo",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        -240,
+        0,
+        820
+      ]
+    },
+    {
+      "name": "SeamM",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        1,
+        0,
+        1.08
+      ]
+    },
+    {
+      "name": "SeamH",
+      "type": "float",
+      "count": 4,
+      "values": [
+        1,
+        0,
+        0,
+        0.11
+      ]
+    },
+    {
+      "name": "SeamState",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        -10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SeamLook",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0.0055,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

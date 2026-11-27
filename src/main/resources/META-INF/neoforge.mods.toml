@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="veilborne"
+version="1.0.0"
+displayName="天幕异闻 · Veilborne"
+logoFile="logo.png"
+authors="suiyi"
+description='''Regional, synchronized supernatural weathers. 星海倒灌: the sea beyond the sky comes ashore with a celestial whale, rising tides, spectral visitors and keepsakes. 月骸花潮: the moon's porcelain shell cracks and falls as silver petals, faceless bearers carry a piece of it along the road, a little moon lands in the grove and, for a while, there are three moons. 镜天巡礼: the sky becomes a great uneven mirror showing the real land upside down, with one tower and one door too many; a colossal pilgrim walks the mirrored land, stops beside you and looks down, and at the end the mirror cracks like slow lightning and falls as light. 绯线缝世: the sky turns to crimson cloth and tears open; a golden needle longer than a mountain sutures the wound stitch by stitch, comes down to sew the land to the sky while an unseen hand pulls the thread tight, and the seam cools into an ordinary band of stars. 无声白昼: every sound goes, layer by layer, the grey comes in like a tide and the world pales to a still, overexposed noon; a black sun that gives no light rises in the north, bends the sky round it and drinks the world's colours in thin ribbons until it covers the sun, while a silent procession passes, an empty coat knocks at the door and one bell still rings somewhere; then a white line stands on the horizon, the thunder comes half a minute late, and the first bird sings the colour back. 苍翠梦潮: the clouds go soft and green and a forest grows down out of them, upside down, its roots reaching the hilltops; schools of leaf-fish swim through the air, a glowing dream tree comes up nearby with a path of petals to it, and a great deer almost clear as light, a whole small wood growing in its antlers, walks by along a road of roots, stops by the tree and lowers its head to look at whoever waits there quietly; then the forest turns gold and lets its leaves go, dream seeds come down to be guided to the soil, and the roots draw back into an ordinary cloud. Each weather also leaves something lasting behind: a voyage to what the sea lost and a star-tide pool to fish, lanterns no monster comes near and a potion of moonveil, a buried room under the tower only the mirror shows, lamps sewn together into a road of thread, a lantern and a candle the sculk cannot hear, and a dream tree that quickens the farm around it; and each one is graded, one to three stars, by how fully you met it.'''
+[[mixins]]
+config="veilborne.mixins.json"
+[[dependencies.veilborne]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.veilborne]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

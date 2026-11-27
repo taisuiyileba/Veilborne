@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GTG",
+    " P "
+  ],
+  "key": {
+    "G": {
+      "item": "veilborne:golden_leaf"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "P": {
+      "item": "minecraft:lily_pad"
+    }
+  },
+  "result": {
+    "id": "veilborne:flower_lamp",
+    "count": 2
+  }
+}

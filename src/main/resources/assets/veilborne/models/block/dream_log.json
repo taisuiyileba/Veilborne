@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "veilborne:block/dream_log_top",
+    "side": "veilborne:block/dream_log"
+  }
+}

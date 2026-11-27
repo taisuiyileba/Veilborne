@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "veilborne:item/moon_dial_00"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "veilborne:needle": 0.0
+      },
+      "model": "veilborne:item/moon_dial_00"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.03125
+      },
+      "model": "veilborne:item/moon_dial_01"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.09375
+      },
+      "model": "veilborne:item/moon_dial_02"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.15625
+      },
+      "model": "veilborne:item/moon_dial_03"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.21875
+      },
+      "model": "veilborne:item/moon_dial_04"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.28125
+      },
+      "model": "veilborne:item/moon_dial_05"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.34375
+      },
+      "model": "veilborne:item/moon_dial_06"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.40625
+      },
+      "model": "veilborne:item/moon_dial_07"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.46875
+      },
+      "model": "veilborne:item/moon_dial_08"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.53125
+      },
+      "model": "veilborne:item/moon_dial_09"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.59375
+      },
+      "model": "veilborne:item/moon_dial_10"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.65625
+      },
+      "model": "veilborne:item/moon_dial_11"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.71875
+      },
+      "model": "veilborne:item/moon_dial_12"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.78125
+      },
+      "model": "veilborne:item/moon_dial_13"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.84375
+      },
+      "model": "veilborne:item/moon_dial_14"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.90625
+      },
+      "model": "veilborne:item/moon_dial_15"
+    },
+    {
+      "predicate": {
+        "veilborne:needle": 0.96875
+      },
+      "model": "veilborne:item/moon_dial_00"
+    }
+  ]
+}

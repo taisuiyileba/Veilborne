@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "TDT",
+    " T "
+  ],
+  "key": {
+    "S": {
+      "item": "veilborne:moon_shard"
+    },
+    "T": {
+      "item": "minecraft:string"
+    },
+    "D": {
+      "item": "veilborne:moon_dew"
+    }
+  },
+  "result": {
+    "id": "veilborne:moon_gauze",
+    "count": 1
+  }
+}

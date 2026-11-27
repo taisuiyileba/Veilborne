@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "full=false": {
+      "model": "veilborne:block/dream_heart"
+    },
+    "full=true": {
+      "model": "veilborne:block/dream_heart"
+    }
+  }
+}

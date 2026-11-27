@@ -1,0 +1,4 @@
+pluginManagement {
+    repositories { mavenLocal(); mavenCentral(); gradlePluginPortal(); maven { url = 'https://maven.neoforged.net/releases' } }
+}
+rootProject.name = 'veilborne'

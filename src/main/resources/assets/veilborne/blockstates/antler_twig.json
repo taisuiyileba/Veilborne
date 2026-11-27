@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "veilborne:block/antler_twig"
+    },
+    "facing=east": {
+      "model": "veilborne:block/antler_twig",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "veilborne:block/antler_twig",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "veilborne:block/antler_twig",
+      "y": 270
+    }
+  }
+}

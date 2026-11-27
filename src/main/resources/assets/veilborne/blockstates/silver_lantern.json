@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "veilborne:block/silver_lantern"
+    },
+    "facing=west": {
+      "model": "veilborne:block/silver_lantern",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "veilborne:block/silver_lantern",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "veilborne:block/silver_lantern",
+      "y": 270
+    }
+  }
+}

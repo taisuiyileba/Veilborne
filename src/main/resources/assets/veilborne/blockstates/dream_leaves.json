@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blossom=false": {
+      "model": "veilborne:block/dream_leaves"
+    },
+    "blossom=true": {
+      "model": "veilborne:block/dream_leaves_blossom"
+    }
+  }
+}

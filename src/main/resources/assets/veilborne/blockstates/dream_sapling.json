@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0,full=false": {
+      "model": "veilborne:block/dream_sapling_0"
+    },
+    "age=1,full=false": {
+      "model": "veilborne:block/dream_sapling_1"
+    },
+    "age=2,full=false": {
+      "model": "veilborne:block/dream_sapling_2"
+    },
+    "age=3,full=false": {
+      "model": "veilborne:block/dream_sapling_3"
+    },
+    "age=0,full=true": {
+      "model": "veilborne:block/dream_sapling_full_0"
+    },
+    "age=1,full=true": {
+      "model": "veilborne:block/dream_sapling_full_1"
+    },
+    "age=2,full=true": {
+      "model": "veilborne:block/dream_sapling_full_2"
+    },
+    "age=3,full=true": {
+      "model": "veilborne:block/dream_sapling_full_3"
+    }
+  }
+}
